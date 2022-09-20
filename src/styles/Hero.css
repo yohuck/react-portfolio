@@ -2,6 +2,12 @@
 @import "open-props/normalize";
 @import "open-props/masks/edges";
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  text-align: left;
+}
 
 .Typewriter{
     display: inline-block;
@@ -33,6 +39,7 @@ h1{
     font-weight: var(--font-weight-9);
     font-family: var(--font-sans);
     margin-bottom: 0;
+
     /* text-shadow: 2px 3px 1px var(--blue-2); */
     /* background-image: var(--gradient-2);
     filter: var(--noise-filter-3);
@@ -128,10 +135,9 @@ input{
 
 
 
-    /* .second{
-        color: var(--red-9);
-        text-shadow: none;
-    } */
+    .second{
+      display: block;
+    }
 
     .descrip{
   
@@ -157,7 +163,7 @@ input{
 }
 
     section{
-        max-width: 1200px;
+        max-width: 1250px;
         height: 100vh;
         margin: 0 auto;
         gap: var(--size-4);
@@ -372,3 +378,16 @@ button.primary:hover {
     }
 }
 
+
+
+
+
+@media (min-width: 480px) {
+  h1 {
+    max-width: none;
+  }
+
+  p {
+    max-width: none;
+  }
+}
