@@ -137,10 +137,10 @@ input{
         align-items: center;
         padding: var(--size-7);
         line-height: var(--font-lineheight-0);
-        border: red 1px solid;
+        /* border: red 1px solid; */
     }
 
-    button {
+  button {
   color: var(--violet-7);
   font-size: var(--font-size-3);
   padding-inline: var(--size-5);
