@@ -1,18 +1,18 @@
 import React from "react"
 import '../styles/Project.css'
 
-const Project = () => {
+const Project = ({ project }) => {
     return (
         <article>
         <div className="info">
             <div className="top">
-                <h4>Recycle Better</h4>
+                <h4>{project.name}</h4>
                 <hr></hr>
                 <div className="grp">
-                    <a target='blank' href="https://github.com/yohuck/wish-cycle">GitHub Repo</a>
-                    <a target="blank" href="https://yohuck.github.io/wish-cycle/">Live Site</a>
+                    <a target='blank' href={project.repo}>GitHub Repo</a>
+                    <a target="blank" href={project.live}>Live Site</a>
                 </div>
-                <p>A web application to help conscious consumers quickly and easily find the best way to recycle or dispose of household items.</p>
+                <p>{project.description}</p>
             </div>
 
             <div className="btm">

@@ -1,18 +1,13 @@
 import React from "react";
 import Project from "./Project";
 import '../styles/Projects.css'
+import projects from "../data/projects";
 
-const Projects = () => {
+const Projects = ( ) => {
 
         return (
             <section className="projects">
-                <Project />
-                <Project />
-                <Project />
-                <Project />
-                <Project />
-                <Project />
-                <Project />
+                {projects.map( project => <Project project={project} />)}
             </section>
             
              
