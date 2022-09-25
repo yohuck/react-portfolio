@@ -8,7 +8,7 @@ import PopperCard from "./PopperCard";
 const Projects = ( ) => {
 
         return (
-            <div>
+            <div className="pro-con">
             <section className="projects">
                 {projects.map( project => <Project project={project} />)}
                 <PopperCard className="projects proj" />

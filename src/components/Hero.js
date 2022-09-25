@@ -6,7 +6,7 @@ import '../styles/Hero.css'
 const Hero = () => {
     return (
         <div className="container">
-    <section>
+    <section className="hero">
         <div className="grp">
             <h1 className="welcome-hero">
               Howdy, friend.<span className="second">  I'm Eric.</span>

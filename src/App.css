@@ -2,6 +2,12 @@
 @import "open-props/normalize";
 @import "open-props/masks/edges";
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,9 +41,12 @@
 
 nav{
   position: fixed;
-  padding: var(--size-1);
-  margin: var(--size-2);
+  width: 100%;
 }
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

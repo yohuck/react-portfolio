@@ -17,6 +17,7 @@
         box-shadow: var(--shadow-3);
         border: var(--border-size-3) solid transparent;
 
+
         /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
     }
@@ -56,12 +57,42 @@
 
     .info{
         height: 100%;
+        margin-top: var(--size-2);
         padding: var(--size-1);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    .info *{
-        /* margin: var(--size-1); */
+
+
+    nav li {
+        padding: var(--size-2);
+       background-color: rgba(255, 255, 255, 0);
+    }
+
+    a{
+        all: unset
+    }
+
+    nav li a:hover{
+        border-bottom: 3px dotted var(--indigo-6);
+    }
+
+    hr{
+        margin: var(--size-2) auto;
+    }
+
+    .grp{
+        display: flex;
+        width: 100%;
+        gap: var(--size-2);
+        margin-bottom: var(--size-1);
+    }
+
+    .grp a::after{
+        content: '🔗';
+        font-size: 1rem;
+
+
     }

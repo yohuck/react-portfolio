@@ -10,11 +10,10 @@ const styles = {
             /* height: 100%; */
             /* border: 1px solid black; */
             borderRadius: 'var(--radius-conditional-3)',
-            padding: 'var(--size-3)',
+            padding: 'var(--size-2)',
             boxShadow: 'var(--shadow-3)',
             border: 'var(--border-size-3) solid transparent',
             color:'var(--violet-2)',
-            margin: 'var(--size-3',
 
             
            
