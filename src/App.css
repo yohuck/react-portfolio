@@ -1,6 +1,11 @@
+@import "open-props/style";
+@import "open-props/normalize";
+@import "open-props/masks/edges";
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +31,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+nav{
+  position: fixed;
+  padding: var(--size-1);
+  margin: var(--size-2);
 }
 
 @keyframes App-logo-spin {

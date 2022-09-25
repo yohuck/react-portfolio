@@ -1,9 +1,20 @@
 import Popper from "./Popper";
+import '../styles/Project.css'
 import React from "react"
+
+const styles = {
+    height: '100%',
+    backgroundColor: 'black',
+    borderRadius: 'var(--radius-conditional-3)',
+    padding: 'var(--size-3)',
+    boxShadow: 'var(--shadow-3)',
+    border: 'var(--border-size-3) solid transparent',
+    color: 'var(--violet-2)'
+}
 
 const PopperCard = () => {
     return(
-        <article className="pop">
+        <article styles={styles}>
             <div className="top">
                 <div className="info">
                     <h4>Popper Toy</h4>
