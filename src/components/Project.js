@@ -18,11 +18,9 @@ const Project = ({ project }) => {
             <div className="btm">
 
                 <ul>
-                    <li>JQuery</li>
-                    <li>Socrata Open API</li>
-                    <li>Geolocation API</li>
-                    <li>Bulma</li>
-                    <li>JavaScript</li>
+                    {project.stack.map(function(tech, index){
+                        return <li key={ index }>{tech}</li>
+                    })}
                 </ul>
                         </div>
             </div>

@@ -6,6 +6,7 @@
 
 
     article{
+        height: 100%;
         /* background-image: var(--gradient-8); */
         background-color: black;
         /* height: 100%; */
@@ -16,6 +17,7 @@
         margin: 0;
         border: var(--border-size-3) solid transparent;
         color: var(--violet-2);
+        border: 1px solid red;
         
        
         /* max-width: 2fr; */

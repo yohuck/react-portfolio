@@ -1,0 +1,46 @@
+
+
+section .pop{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.outer .pop {
+margin: var(--size-5);
+border: 5px solid var(--grape-6);
+background-color: #efd002;
+background-image: var(--gradient-2);
+padding:0.5rem;
+border-radius: 999px;
+overflow: hidden;
+filter: drop-shadow(0px 0px 1rem black);
+opacity: 100%;
+}
+
+.row .pop {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.popper {
+width: 1.4rem;
+height: 1.4rem;
+margin: 0.1rem;
+background: var(--gradient-2);
+border-radius: 999px;
+display: flex;
+align-items: center;
+justify-content: center;
+filter: drop-shadow(0px 0px 1rem #31b74a);
+cursor: pointer;
+}
+
+.active .pop{
+background: var(--gradient-11);
+filter: drop-shadow(0px 0px 2rem #a425a2);
+}
