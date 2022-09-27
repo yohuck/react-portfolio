@@ -44,7 +44,9 @@ nav{
   width: 100%;
 }
 
-
+.app{
+  background-image: var(--gradient-16);
+}
 
 
 

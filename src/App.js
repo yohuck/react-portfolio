@@ -3,6 +3,8 @@ import './App.css';
 
 import Hero from './components/Hero'
 import Projects from './components/Projects';
+import Skills from './components/Skills'
+import Contact from './components/Contact';
 import React from "react"
 import {
   BrowserRouter as Router,
@@ -18,7 +20,7 @@ import {
 
 export default function App() {
   return (
-    <div>
+    <div className='app'>
 
     <Router>
     <header>
@@ -30,6 +32,12 @@ export default function App() {
           <li>
             <Link to="/work">Work</Link>
           </li>
+          <li>
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </header>
@@ -38,6 +46,12 @@ export default function App() {
       </Routes>
       <Routes>
         <Route path='/work' element={<Projects />}></Route>
+      </Routes>
+      <Routes>
+        <Route path='/skills' element={<Skills />}></Route>
+      </Routes>
+      <Routes>
+        <Route path='/contact' element={<Contact />}></Route>
       </Routes>
 
     </Router>

@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="hero">
         <div className="grp">
             <h1 className="welcome-hero">
-              Howdy, friend.<span className="second">  I'm Eric.</span>
+              Howdy, friend. I'm Eric.
             </h1>
             <p className="welcome-text">I'm a front-end developer who loves building <span aria-label="bold, inviting, accessible, inviting, whimsical, effective"></span><span className="descrip" aria-hidden="true" >
                 <Typewriter className="type"
@@ -32,6 +32,7 @@ const Hero = () => {
                     .start()
                 }}
                 /></span>UI.
+    
                I spent the first decade of my career building <span className="ayo1">customer</span> processes and have become an expert in the people on the other side of the screen. </p>
               
                <p className="welcome-text mobile">
