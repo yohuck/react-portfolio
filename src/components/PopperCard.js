@@ -14,7 +14,7 @@ const styles = {
 
 const PopperCard = () => {
     return(
-        <article styles={styles}>
+        <article styles={styles} className="popperToy">
             <div className="top">
                 <div className="info">
                     <h4>Popper Toy</h4>

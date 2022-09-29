@@ -11,7 +11,7 @@ const Projects = ( ) => {
             <div className="pro-con">
             <section className="projects">
                 {projects.map( project => <Project project={project} />)}
-                <PopperCard className="projects proj" />
+                <PopperCard className="projects proj popperToy" />
             </section>
             
            

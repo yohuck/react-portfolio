@@ -1,5 +1,6 @@
 import React from "react"
-import '../styles/Project.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const styles = {
 
@@ -80,7 +81,10 @@ const Project = ({ project }) => {
         <article style={styles.article} className="proj">
         <div className="info">
             <div className="top">
-                <h4>{project.name}</h4>
+                <div class="title-top">
+                    <h4>{project.name}</h4>
+                    <p className="pic">📷</p>
+                </div>
                 <hr></hr>
                 <div className="grp">
                     <a target='blank' href={project.repo}>GitHub Repo</a>

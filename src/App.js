@@ -21,7 +21,7 @@ import {
 export default function App() {
   return (
     <div className='app'>
-
+    <script src="https://kit.fontawesome.com/1939b32d5e.js" crossorigin="anonymous"></script>
     <Router>
     <header>
       <nav>
@@ -32,9 +32,9 @@ export default function App() {
           <li>
             <Link to="/work">Work</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/skills">Skills</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact">Contact</Link>
           </li>
