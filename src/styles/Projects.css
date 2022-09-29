@@ -9,7 +9,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: hsl(var(--indigo-9-hsl) / 90%);
+    background-color: hsl(var(--gray-9-hsl) / 99%);
 }
 
 .projects{

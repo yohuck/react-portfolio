@@ -10,7 +10,7 @@ const Projects = ( ) => {
         return (
             <div className="pro-con">
             <section className="projects">
-                {projects.map( project => <Project project={project} />)}
+                {projects.map( project => <Project project={project} key={project.name}/>)}
                 <PopperCard className="projects proj popperToy" />
             </section>
             

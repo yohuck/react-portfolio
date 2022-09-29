@@ -19,9 +19,41 @@ code {
 
 .popperToy {
   background-color: black;
-  border-radius: var(--radius-conditional-3);
   padding: var(--size-3);
   box-shadow: var(--shadow-3);
   border: var(--border-size-3) solid transparent;
   color: var(--violet-2);
+}
+
+.contactPage{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--size-3);
+}
+
+.form-grp{
+  padding: var(--size-6);
+  border: var(--size-1) var(--violet-6) solid;
+  border-radius: var(--radius-3);
+}
+
+#message, #email #name {
+  width: 95%;
+  margin: var(--size-1) auto;
+}
+
+#email, #name{
+  height: var(--size-2);
+}
+
+#message{
+  height: var(--size-10)
 }

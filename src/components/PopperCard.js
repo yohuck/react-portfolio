@@ -5,7 +5,7 @@ import React from "react"
 const styles = {
     height: '100%',
     backgroundColor: 'black',
-    borderRadius: 'var(--radius-conditional-3)',
+    borderRadius: 'var(--radius-3)',
     padding: 'var(--size-3)',
     boxShadow: 'var(--shadow-3)',
     border: 'var(--border-size-3) solid transparent',

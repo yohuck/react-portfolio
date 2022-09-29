@@ -81,7 +81,7 @@ const Project = ({ project }) => {
         <article style={styles.article} className="proj">
         <div className="info">
             <div className="top">
-                <div class="title-top">
+                <div className="title-top">
                     <h4>{project.name}</h4>
                     <p className="pic">📷</p>
                 </div>
