@@ -18,7 +18,7 @@ const PopperCard = () => {
             <div className="top">
                 <div className="info">
                     <h4>Popper Toy</h4>
-                    <hr></hr>
+                    <hr className="hrp"></hr>
                     <div className="grp">
                         <a target='blank' href="https://codepen.io/yohuck/pen/bGaLKaW">Codepen</a>
                     </div>

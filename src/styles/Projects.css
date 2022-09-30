@@ -9,7 +9,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: hsl(var(--gray-9-hsl) / 99%);
+    background-image: var(--gradient-16);
 }
 
 .projects{
@@ -21,3 +21,50 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
+
+.screenshot{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-image: var(--gradient-16);
+    animation: myAni .5s ease-in-out;
+    flex-direction: column-reverse;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#out{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 500;
+    min-width: 100vw;
+    background-image: var(--gradient-16);
+    animation: reversemyAni .3s
+}
+
+
+@keyframes myAni {
+    0% {
+        transform:  translateY(-100vh);
+    }
+    100% {
+        transform:  translateY(0);
+    }
+}
+
+@keyframes reversemyAni {
+
+    0% {
+        transform:  translateY(0);
+    }
+
+    100% {
+        transform:  translateY(-100vh);
+    }
+}
+
+

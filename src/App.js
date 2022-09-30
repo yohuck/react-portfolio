@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects';
 import Skills from './components/Skills'
 import Contact from './components/Contact';
-import ContactNew from './components/ContactNew'
+
 import React from "react"
 import {
   BrowserRouter as Router,
@@ -13,6 +13,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
+
 
 
 
@@ -42,6 +43,7 @@ export default function App() {
         </ul>
       </nav>
     </header>
+    
       <Routes>
         <Route path='/' element={<Hero />}></Route>
       </Routes>

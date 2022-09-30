@@ -62,4 +62,22 @@ nav{
 
 .popperToy{
   background-color: black;
+  border-radius: var(--radius-3);
+  padding: var(--size-3);
+  border: var(--size-1) var(--violet-8) solid;
+}
+
+.popperToy h4{
+  margin-top: none;
+}
+
+.hrp{
+  margin: 0rem;
+  margin-top: var(--size-2);
+  margin-bottom: var(--size-2)
+
+}
+
+.pic:hover, .pic:active{
+  opacity: 0.6;
 }
