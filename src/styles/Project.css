@@ -71,9 +71,9 @@
        background-color: rgba(255, 255, 255, 0);
     }
 
-    a{
+    /* a{
         all: unset
-    }
+    } */
 
     nav li a:hover{
         border-bottom: 3px dotted var(--indigo-6);

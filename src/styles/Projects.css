@@ -27,13 +27,19 @@
     top: 0;
     left: 0;
     z-index: 500;
-    background-image: var(--gradient-16);
+    background-color: hsl(var(--gray-9-hsl) / 90%);
     animation: myAni .5s ease-in-out;
     flex-direction: column-reverse;
     min-width: 100vw;
     align-items: center;
     justify-content: center;
     
+}
+
+.screenshot img{
+    max-width: 80vw;
+    max-height: 70vh;
+    box-shadow: var(--shadow-3)
 }
 
 #out{
