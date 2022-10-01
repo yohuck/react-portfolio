@@ -29,13 +29,13 @@ export default function App() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" id='home'>Home</Link>
           </li>
           <li>
-            <Link to="/work">Work</Link>
+            <Link to="/work" id='work'>Work</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" id='contact'>Contact</Link>
           </li>
         </ul>
       </nav>

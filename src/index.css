@@ -14,7 +14,6 @@ code {
 
 .type {
   display: inline-block;
-  border: 1px solid red;
 }
 
 .popperToy {
@@ -58,4 +57,10 @@ code {
   height: var(--size-10)
 }
 
+#home, #work, #contact {
+  color: white;
+}
 
+nav li{
+  margin: 0;
+}
