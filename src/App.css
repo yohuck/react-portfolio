@@ -39,9 +39,10 @@
   color: #61dafb;
 }
 
-nav{
+nav, .footer{
   position: fixed;
   width: 100%;
+  /* background-color: #0606067e; */
 }
 
 .app{
@@ -80,4 +81,49 @@ nav{
 
 .pic:hover, .pic:active{
   opacity: 0.6;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: var(--size-2);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer h4{
+  font-size: 1rem;
+  width: 20ch;
+}
+
+
+
+.footer ul li{
+  font-size: var(--size-3);
+}
+
+.footer ul {
+  margin: var(--size-2);
+  margin-right: var(--size-4);
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--size-2);
+}
+
+.footer li{
+  padding: var(--size-1) var(--size-2);
+  background-color: var(--violet-8);
+  color: white;
+  opacity: 0.8;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer i:hover{
+  transform: scale(1.3);
+
 }

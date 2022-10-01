@@ -58,15 +58,4 @@ code {
   height: var(--size-10)
 }
 
-.footer{
-  height: var(--size-4);
-  position: fixed;
-  width: 100%;
-  padding: var(--size-10);
-  bottom: 0;
-  border: 3px solid #73AD21;
-}
 
-.footer ul li{
-  font-size: var(--size-5);
-}
