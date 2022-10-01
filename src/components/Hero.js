@@ -36,7 +36,7 @@ const Hero = () => {
                I spent the first decade of my career building <span className="ayo1">customer</span> processes and have become an expert in the people on the other side of the screen. </p>
               
                <p className="welcome-text mobile">
-                Want to check out my resume? View it <a target="_blank" href="https://docs.google.com/document/d/1NHRPvw4y2NBZ1Rd52Dm9ek9CZjjWjDPKq7od_7C7JN4/">here</a>.
+                Want to check out my resume? View it <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1NHRPvw4y2NBZ1Rd52Dm9ek9CZjjWjDPKq7od_7C7JN4/">here</a>.
             </p>
             <br></br>
            

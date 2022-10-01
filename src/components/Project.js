@@ -89,7 +89,7 @@ const Project = ({ project }) => {
         <div className="top">
           <div className="title-top">
             <h4>{project.name}</h4>
-            <p className="pic" onClick={picClick} ariaFocus='true           '>
+            <p className="pic" onClick={picClick}>
               📷
             </p>
           </div>
