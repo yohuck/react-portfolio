@@ -86,13 +86,15 @@ nav, .footer{
 
 
 header li{
+  color: var(--violet-8);
   margin-top: var(--size-1);
   font-size: var(--size-4);
   font-weight: var(--font-weight-8);
 }
 
 header ul li a{
-  background-color: var(--violet-8);
+  color:var(--violet-8);
+  /* background-color: var(--violet-8); */
   padding: var(--size-1) var(--size-2);
   border-radius: var(--radius-2);
 }
