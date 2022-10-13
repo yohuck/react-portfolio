@@ -1,5 +1,15 @@
 const projects = [
     {
+        "_id":"101322",
+        "name":"Talking Cents",
+        "repo":"https://github.com/yohuck/daily-chatter",
+        "live":"https://talking-cents.com",
+        "description":"Talking Cents is a social platform that puts your opinions to the test to see how much sense (cents) you really make..",
+        "stack":["RedwoodJs","React","TailwindCSS","PostgreSQL","GraphQL", "Prisma"],
+        "__v":0,
+        "url":"/screenshots/habitstack.gif"
+    },
+    {
         "_id":"6323ae7b04b45e55b2a2638f",
         "name":"Habit Stack",
         "repo":"https://github.com/yohuck/habit-map",

@@ -76,7 +76,7 @@
     } */
 
     nav li a:hover{
-        border-bottom: 3px dotted var(--indigo-6);
+        color:var(--violet-6)
     }
 
     hr{
@@ -109,4 +109,5 @@
 
     #home, #work, #contact{
         color: var(--violet-8)
+        
     }
