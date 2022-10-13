@@ -7,7 +7,7 @@ const projects = [
         "description":"Talking Cents is a social platform that puts your opinions to the test to see how much sense (cents) you really make..",
         "stack":["RedwoodJs","React","TailwindCSS","PostgreSQL","GraphQL", "Prisma"],
         "__v":0,
-        "url":"/screenshots/talking-sense.gif"
+        "url":"/screenshots/talking-cents.gif"
     },
     {
         "_id":"6323ae7b04b45e55b2a2638f",
